@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Gidugu|Josefin+Sans');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center
+}
+
+h1 {
+    padding: 20px;
+    color: lightblue;
+    text-align: center;
+}
+
+.banner {
+    height: 150px;
+    background: url(../images/fancycode.jpg);
+    background-size: cover;
+    background-position: 0% 70%;
+    font-size: 300%;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+body{
+    background: url(../images/tileable-midnight-blue-grunge-patterns-11.jpg);
+}
+
+div {
+    align-content: center;
+    background-color: rgba(128,128,128,.7);
+    height: vh;
+    width: 100%;
+    padding: 20px 20px 10px 50px;
+    border-style: solid black;
+    border-width: 50%;
+    font-size: 100%;
+    overflow: hidden;
+    font-size: 150%;
+    color: lightblue;
+ }
+
+nav ul li  {
+   text-align: center;
+    height: 30px;
+    width: auto;
+    display: inline;
+    font-size: 200%;
+}
+
+a:hover, a:active {
+    background: green;
+    font-size: 110%;
+    color: rbga(255, 255, 255,0.1);
+    border-radius: -100px;
+}
+
